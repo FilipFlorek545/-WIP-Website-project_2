@@ -1,0 +1,42 @@
+body {
+  font-family: "Source Serif 4", sans-serif;
+  margin: 0;
+}
+#container_1 {
+  background-color: deepskyblue;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  justify-content: center;
+  color: aliceblue;
+  font-size: larger;
+}
+#container_2 {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(3, 350px);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+#container_3_background {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container_3 {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: repeat(2, 250px);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+.cpb_6 {
+  grid-column: -5;
+}
