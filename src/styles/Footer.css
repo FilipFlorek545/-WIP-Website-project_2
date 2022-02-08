@@ -1,14 +1,18 @@
 #footer {
   display: grid;
   grid-template-columns: repeat(3, 33vw);
-  background-color: grey;
+  background-color: slategray;
   color: whitesmoke;
   align-items: center;
+  text-shadow: 2px 2px 2px #595959;
 }
 #socialsId {
   grid-column: 3;
   text-align: right;
   padding-right: 20px;
+}
+#socialsId svg {
+  filter: drop-shadow(3px 5px 2px rgb(98 98 98 / 0.4));
 }
 .icon {
   padding: 10px;

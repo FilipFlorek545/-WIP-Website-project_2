@@ -1,0 +1,17 @@
+.company_box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35%;
+  background-color: whitesmoke;
+  color: black;
+  font-size: xxx-large;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.company_box svg {
+  filter: drop-shadow(1px 3px 1px rgb(0 0 0 / 0.3));
+}

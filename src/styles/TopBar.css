@@ -1,0 +1,28 @@
+#topbar {
+  display: flex;
+  background-color: slategray;
+  color: whitesmoke;
+  width: 100vw;
+  text-shadow: 2px 2px 2px #595959;
+  padding: 15px;
+  position: fixed;
+  z-index: 1;
+}
+#topbarside {
+  display: inline-flex;
+  justify-content: right;
+  width: 85vw;
+  text-align: right;
+}
+#companyName {
+  font-size: larger;
+  margin-left: 2em;
+  cursor: pointer;
+}
+#topbarside div a {
+  margin: 0 3px;
+  cursor: pointer;
+}
+#dropdown {
+  cursor: pointer;
+  position: relative;

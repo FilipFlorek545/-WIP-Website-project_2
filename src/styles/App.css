@@ -3,18 +3,22 @@ body {
   margin: 0;
 }
 #container_1 {
-  background-color: deepskyblue;
+  background-image: url(https://i.picsum.photos/id/927/1920/1080.jpg?hmac=UzIayvk_fza5x3nljUAisvhEJWVAmCdMI-Csp-A42uY);
+  background-size: cover;
+  background-position: center;
   width: 80%;
   height: 80vh;
   display: flex;
   flex-direction: column;
   padding-left: 20%;
   justify-content: center;
+  text-shadow: 2px 2px 2px #595959;
   color: aliceblue;
   font-size: larger;
 }
 #container_2 {
   display: grid;
+  border-top: 5px solid slategray;
   grid-template-columns: repeat(3, 350px);
   grid-template-rows: repeat(3, 350px);
   justify-content: center;
@@ -22,11 +26,15 @@ body {
   align-items: center;
   background-color: whitesmoke;
 }
+
 #container_3_background {
   padding: 25px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #dcdcdc;
+  color: black;
+  text-shadow: 2px 2px 2px #ffffff;
 }
 #container_3 {
   display: grid;

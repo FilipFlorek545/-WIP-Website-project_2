@@ -1,0 +1,6 @@
+.cont_box_name {
+  text-shadow: 2px 2px 2px gainsboro;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

@@ -1,5 +1,5 @@
 import '../styles/ContainerBox.css'
 const ContainerBox = ({serviceClass,children}) => {
-    return  <div className={serviceClass}>{children}</div>
+    return  <button className={serviceClass}>{children}</button>
 }
 export default ContainerBox;
