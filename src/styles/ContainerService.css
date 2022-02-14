@@ -1,0 +1,18 @@
+body {
+  background-color: whitesmoke;
+  width: auto;
+  height: 100vh;
+}
+#container_service {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 55.2em;
+  width: 60vw;
+  margin: auto;
+  align-items: center;
+}
+#container_service svg {
+  font-size: 2000%;
+  margin-right: 20vh;
+}

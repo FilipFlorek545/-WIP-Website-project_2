@@ -1,19 +1,20 @@
+import { Link } from 'react-router-dom';
 import '../styles/TopBar.css'
 const TopBar = ({topbarid}) => {
     return <div id={topbarid}>
-        <div id='companyName'>&lt; nazwafirmy &gt;</div>
+        <Link to="/" id='companyName'>&lt; nazwafirmy &gt;</Link>
         <div id='topbarside'>
             <div id='dropdown'>Oferta
                 <div className='dropdown_content'>
-                    <a href="#">Usługa 1</a>
-                    <a href="#">Usługa 2</a>
-                    <a href="#">Usługa 3</a>
-                    <a href="#">Usługa 4</a>
-                    <a href="#">Usługa 5</a>
-                    <a href="#">Usługa 6</a>
-                    <a href="#">Usługa 7</a>
-                    <a href="#">Usługa 8</a>
-                    <a href="#">Usługa 9</a>
+                    <Link to={"/service_1"}>Usługa 1</Link>
+                    <Link to="/service_2">Usługa 2</Link>
+                    <Link to="/service_3">Usługa 3</Link>
+                    <Link to="/service_4">Usługa 4</Link>
+                    <Link to="/service_5">Usługa 5</Link>
+                    <Link to="/service_6">Usługa 6</Link>
+                    <Link to="/service_7">Usługa 7</Link>
+                    <Link to="/service_8">Usługa 8</Link>
+                    <Link to="/service_9">Usługa 9</Link>
                 </div>
             </div>
             <a id='contact_link' href='#'>Kontakt</a>

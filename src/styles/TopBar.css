@@ -18,6 +18,8 @@
   font-size: larger;
   margin-left: 2em;
   cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke;
 }
 #topbarside div a {
   cursor: pointer;

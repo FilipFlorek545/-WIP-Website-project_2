@@ -5,6 +5,7 @@ import ServiceName from "./ServiceName"
 import Footer from "./Footer"
 import CompanyBox from "./CompanyBox"
 import TopBar from "./TopBar"
+import ContainerService from "./ContainerService"
 export {
     Header,
     SmallerHeader,
@@ -13,4 +14,5 @@ export {
     Footer,
     CompanyBox,
     TopBar,
+    ContainerService,
 }

@@ -1,15 +1,15 @@
-import { Header, SmallerHeader, ServiceName, ContainerBox, Footer,CompanyBox, TopBar} from ".";
+import { Header, SmallerHeader, ServiceName, ContainerBox, Footer,CompanyBox, TopBar} from "../components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTruck, faBabyCarriage, faAward, faBalanceScale, faBriefcase, faBuilding, faCalendarAlt, faCode, faCookieBite } from "@fortawesome/free-solid-svg-icons";
-import '../styles/App.css'
+import '../styles/Home.css'
 import { faAudible, faBattleNet, faCcDiscover, faCcMastercard, faDiscord, faDropbox, faFlickr, faGalacticRepublic } from "@fortawesome/free-brands-svg-icons";
-const App  = () => {
+const Home  = () => {
     return(
         <>
         <TopBar topbarid='topbar'></TopBar>
         <div id='container_1'>
             <Header>Witamy w &lt; nazwafirmy &gt;</Header>
-            <SmallerHeader>To tu możemy zaoferować Ci wszystko co najlepsze</SmallerHeader>
+            <SmallerHeader>To tu możemy zaoferować Ci wszystko co najlepsze</SmallerHeader> 
         </div>
         <div id='container_2'>
             <ContainerBox serviceClass='cont_box'>
@@ -83,4 +83,4 @@ const App  = () => {
         </>
     )
 }
-export default App;
+export default Home;
