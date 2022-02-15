@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTruck } from "@fortawesome/free-solid-svg-icons";
-import { Footer, Header, TopBar } from ".";
+import { Footer, TopBar } from ".";
 import "../styles/ContainerService.css"
 
 const ContainerService = ({children}) => {

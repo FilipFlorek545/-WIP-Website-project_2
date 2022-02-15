@@ -7,10 +7,10 @@ const Footer = ({footerId}) => {
         <div id={footerId}>
             <p id="companyName_footer">CompanyName&trade; - all rights reserved, 2022</p>
             <div id='socialsId'>
-                <FontAwesomeIcon className="icon" icon={faFacebookSquare} />
-                <FontAwesomeIcon className="icon" icon={faAmazon} />
-                <FontAwesomeIcon className="icon" icon={faTwitter} />
-                <FontAwesomeIcon className="icon" icon={faInstagram} />
+                <a href="https://www.facebook.com/"><FontAwesomeIcon className="icon" icon={faFacebookSquare} /></a>
+                <a href="https://www.amazon.com/"><FontAwesomeIcon className="icon" icon={faAmazon} /></a>
+                <a href="https://twitter.com/"><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
+                <a href="https://www.instagram.com/"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
             </div>
         </div>
     )

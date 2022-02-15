@@ -1,7 +1,5 @@
 body {
   background-color: whitesmoke;
-  width: auto;
-  height: 100vh;
 }
 #container_service {
   display: flex;

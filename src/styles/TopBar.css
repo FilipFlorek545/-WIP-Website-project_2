@@ -60,9 +60,8 @@
 #dropdown:hover .dropdown_content {
   display: block;
 }
-#contact_link {
+.topbar_link {
   padding: 15px;
-  padding-left: 25px;
   align-self: center;
   text-decoration: none;
   color: whitesmoke;

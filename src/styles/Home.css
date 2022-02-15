@@ -48,3 +48,6 @@ body {
 .cpb_6 {
   grid-column: -5;
 }
+.link {
+  text-decoration: none;
+}
